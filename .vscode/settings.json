@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.js": "javascriptreact"
+    },
+
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": true
+      }
+}
