@@ -17,7 +17,7 @@ function NavigationBar() {
             <div className="justify-between w-full px-5 mx-auto md:items-center md:flex md:px-[8%]">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-4 md:block">
-                        <Link href="/" aria-label="Link to the website's home page." passHref scroll={false} onClick={() => openNav(!navOpen)}>
+                        <Link href="/" aria-label="Link to the website's home page." passHref scroll={false} onClick={() => openNav(false)}>
                             <Image src={Logo} alt="Logo for Ryan Than" width="0" height="0" className="w-10 md:w-12 h-auto cursor-pointer scale-hover" />
                         </Link>
                         

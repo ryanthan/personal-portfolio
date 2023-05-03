@@ -17,13 +17,13 @@ export default function About() {
 
                     <div className="px-5 lg:pl-[8%] lg:pr-[4%] lg:py-[2%]">
                         <h1 className="text-4xl lg:text-5xl py-2 font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-700 animate-text">Ryan Than</h1>
-                        <p className="text-lg lg:text-xl py-2 font-semibold font-raleway italic">Passionate ⋅ Collaborative ⋅ Eager</p>
+                        <p className="text-lg lg:text-xl py-2 font-semibold font-raleway italic">Motivated ⋅ Collaborative ⋅ Eager</p>
                         <blockquote className="p-3 my-4 border-l-4 bg-emerald-50 border-emerald-500 dark:bg-gray-800">
                             <p className="text-xl italic font-normal font-raleway leading-relaxed text-gray-900 dark:text-white">"Creativity is inventing, experimenting, growing, taking risks, breaking rules, making mistakes, and having fun."</p>
                             <p className="text-md font-poppins dark:text-gray-400">Mary Lou Cook</p>
                         </blockquote>
                         <p className="text-lg font-raleway">
-                            My career interests lie primarily in creative yet technical areas of Computer Science. I am very passionate about front-end software development projects (i.e., websites, web/mobile applications, etc.) as they often allow me to take creative liberties while simultaneously applying my technical programming abilities.
+                            My career interests lie primarily in creative yet technical areas of Computer Science. I am very passionate about front-end software development projects (websites, web/mobile applications, etc.) as they often allow me to take creative liberties while simultaneously applying my technical programming abilities.
                             <br/><br/>
                             I am constantly exploring different software and design tools/frameworks to enhance the usability of the software I create and provide a seamless user experience. I have always believed that creativity drives innovation and I strive to blend the practicality of engineering with the limitless potential of the imagination in everything I work on!
                         </p>
@@ -77,7 +77,7 @@ export default function About() {
                                 <CustomTooltip title="Java"><li className="scale-hover-skills"><Image src="/skill-logos-software/Java.svg" alt="Java Logo" width="0" height="0" className="w-20 h-auto" /></li></CustomTooltip>
                                 <CustomTooltip title="Python"><li className="scale-hover-skills"><Image src="/skill-logos-software/Python.svg" alt="Python Logo" width="0" height="0" className="w-20 h-auto" /></li></CustomTooltip>
                             </ul>
-                            <p className="p-3 text-center font-raleway text-xs md:text-sm dark:text-gray-300">...and more! I am always learning and experimenting with new software technologies.</p>
+                            <p className="p-3 text-center font-raleway text-sm dark:text-gray-300">...and more! I am always learning and experimenting with new software technologies.</p>
                         </div>
 
                         <div className="grid grid-rows-[max-content_1fr_max-content] w-fit md:w-[40%] h-auto mx-[3%] rounded-2xl shadow-xl bg-gradient-to-b from-gray-100 from-5% via-emerald-400 via-50% to-gray-100 to-95% dark:from-gray-900 dark:via-emerald-900 dark:via-50% dark:to-gray-900">
@@ -90,7 +90,7 @@ export default function About() {
                                 <CustomTooltip title="Adobe Dimension"><li className="scale-hover-skills"><Image src="/skill-logos-design/Dimension.svg" alt="Adobe Dimension Logo" width="0" height="0" className="w-20" /></li></CustomTooltip>
                                 <CustomTooltip title="Procreate"><li className="scale-hover-skills"><Image src="/skill-logos-design/Procreate.svg" alt="Procreate Logo" width="0" height="0" className="w-20 h-auto"/></li></CustomTooltip>
                             </ul>
-                            <p className="p-3 text-center font-raleway text-xs md:text-sm dark:text-gray-300">...and more! I am always eager to explore new design programs and learn more about UI/UX design.</p>
+                            <p className="p-3 text-center font-raleway text-sm dark:text-gray-300">...and more! I am always eager to explore new design tools and learn more about UI/UX design.</p>
                         </div>
                     </div>
                 </section>

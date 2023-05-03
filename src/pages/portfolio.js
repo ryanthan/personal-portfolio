@@ -27,7 +27,7 @@ export default function Portfolio() {
 
                     <PortfolioCard 
                         title="Figma Plugin - Lingoport Localyzer" 
-                        summary="Designed, developed, and published a Figma plugin that connects with internal company software to allow users to translate their designs quickly and efficiently into different languages."
+                        summary="Designed, developed, and published a Figma plugin that allows users to translate their designs quickly and efficiently into different languages."
                         imageSrc="bg-[url(/images/portfolio/plugin.webp)]" 
                         imageAlt="Infographic showing the workflow from the Figma design file to the Lingoport Localyzer plugin to a translation service of your choice and back."
                         software="true" design="true" industry="true" personal="false" school="false"
@@ -47,7 +47,7 @@ export default function Portfolio() {
                         longDescription={
                         <div>
                             <p>
-                                Ludos is an iOS application created using the Swift programming language and Xcode development environment.
+                                Ludos is an iOS application created using the Swift programming language in the Xcode development environment.
                                 The app presents users with an extensive list of video games gathered from the <Link href="https://rawg.io/apidocs" target="_blank" className="font-semibold text-emerald-700 hover:text-cyan-700 hover:underline active:text-blue-800">RAWG API</Link>.
                                 Users are able to search for specific games, use filters to focus on their desired platforms/genres, add games to a favorites list, and find new games through the random feature.
                             </p>
