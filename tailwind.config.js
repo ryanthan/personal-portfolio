@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins"],
-        raleway: ["Raleway"]
+        poppins: ['var(--poppins-font)', 'sans-serif'],
+        raleway: ['var(--raleway-font)', 'sans-serif']
       },
       animation: {
         text: 'text 5s ease infinite',

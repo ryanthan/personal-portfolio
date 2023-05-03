@@ -38,8 +38,8 @@ function PortfolioCard({ imageSrc, imageAlt, title, summary, moreDetails, longDe
           {personal=="true" && (<PersonalTag />)}
           {school=="true" && (<SchoolTag />)}
         </div>
-        <h3 className="font-poppins text-sm md:text-base font-semibold pt-2 pb-1">Overview:</h3>
-        <p className={`font-raleway text-sm md:text-base text-black ${moreDetails==="true" ? 'pb-0':'pb-4'}`}>{summary}</p>
+        <h3 className="font-poppins text-base font-semibold pt-2 pb-1">Overview:</h3>
+        <p className={`font-raleway text-base text-black ${moreDetails==="true" ? 'pb-0':'pb-4'}`}>{summary}</p>
         
         {moreDetails=="true" && (
           <CardActions disableSpacing className="p-0">
@@ -51,11 +51,11 @@ function PortfolioCard({ imageSrc, imageAlt, title, summary, moreDetails, longDe
 
         {moreDetails=="true" && (
           <Collapse in={expanded} timeout={{ appear: 100, enter: 100, exit: 100 }} unmountOnExit>
-            <div className="font-raleway text-sm md:text-base text-black">
+            <div className="font-raleway text-base text-black">
               {longDescription}
             </div>
 
-            <div className="flex flex-wrap gap-2 justify-end py-2 px-3 text-center">
+            <div className="flex flex-wrap gap-2 justify-center md:justify-end py-2 px-3 text-center">
               {codeLink!="" && (<CodeButton link={codeLink} />)}
               {designLink!="" && (<DesignButton link={designLink} />)}
               {videoLink!="" && (<VideoButton link={videoLink} />)}

@@ -14,7 +14,7 @@ export default function Portfolio() {
 
             <main>
                 <section className="py-3 px-[8%]">
-                    <h1 className="text-4xl py-1 font-poppins font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-700">Projects</h1>
+                    <h1 className="text-4xl py-1 font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-700">Projects</h1>
 
                     <PortfolioCard 
                         title="Personal Portfolio" 

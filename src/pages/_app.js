@@ -5,6 +5,18 @@ import '@/styles/globals.css';
 import { ThemeProvider } from "next-themes";
 import Transition from '@/components/transition';
 import NavigationBar from "@/components/navigation-bar";
+import { Poppins, Raleway } from 'next/font/google';
+
+// Load fonts:
+const poppins = Poppins({
+  weight: ['100','200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+});
+
+const raleway = Raleway({
+  weight: ['100','200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+});
 
 /*
 * Accessibility - Outputs issues to console on dev and client-side only.
@@ -36,6 +48,15 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
+      <style jsx global>
+        {`
+          :root {
+            --poppins-font: ${poppins.style.fontFamily};
+            --raleway-font: ${raleway.style.fontFamily};
+          }
+        `}
+      </style>
 
       <NavigationBar />
       <Transition>
