@@ -1,31 +1,43 @@
+import Link from 'next/link';
+
 function CodeButton(link) {
     return (
-        <a href={link.link} target="_blank">
-            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-800 active:bg-cyan-950 active:text-gray-500">
+        <Link href={link.link} target="_blank" aria-label="Link to the associated project's source code on GitHub." passHref>
+            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-600 active:bg-cyan-950 active:text-gray-500">
                 Source Code
             </span>
-        </a>
+        </Link>
     );
 }
 
 function DesignButton(link) {
     return (
-        <a href={link.link} target="_blank">
-            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-800 active:bg-cyan-950 active:text-gray-500">
-                Design Document
+        <Link href={link.link} target="_blank" aria-label="Link to the associated project's design file." passHref>
+            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-600 active:bg-cyan-950 active:text-gray-500">
+                Design File
             </span>
-        </a>
+        </Link>
     );
 }
 
 function VideoButton(link) {
     return (
-        <a href={link.link} target="_blank">
-            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-800 active:bg-cyan-950 active:text-gray-500">
+        <Link href={link.link} target="_blank" aria-label="Link to the associated project's video demonstration." passHref>
+            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-600 active:bg-cyan-950 active:text-gray-500">
                 Video Demo
             </span>
-        </a>
+        </Link>
     );
 }
 
-export {CodeButton, DesignButton, VideoButton};
+function OtherButton(props) {
+    return (
+        <Link href={props.link} target="_blank" aria-label={`Link to the associated project's ${props.label}`} passHref>
+            <span className="flex w-fit text-sm font-poppins px-3 py-1 uppercase rounded-md bg-blue-950 text-white hover:bg-cyan-600 active:bg-cyan-950 active:text-gray-500">
+                {props.label}
+            </span>
+        </Link>
+    );
+}
+
+export {CodeButton, DesignButton, VideoButton, OtherButton};

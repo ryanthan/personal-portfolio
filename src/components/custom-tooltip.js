@@ -8,7 +8,7 @@ const CustomTooltip = styled(({ className, ...props }) => (
     [`& .${tooltipClasses.arrow}`]: {
         color: "white",
         "&:before": {
-            border: "2px solid #000000"
+            border: "1px solid #000000"
         },
     },
     [`& .${tooltipClasses.tooltip}`]: {

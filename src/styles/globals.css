@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base{
+  * {
+    @apply focus-visible:outline focus-visible:outline-4 focus-visible:outline-cyan-500
+  }
+  
+  body {
+      @apply text-gray-900 dark:text-white bg-[url(/images/background-light.webp)] dark:bg-[url(/images/background-dark.webp)] bg-repeat
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .scale-hover {
+    @apply transform transition duration-500 hover:scale-110 active:scale-90
+  }
+
+  .scale-hover-skills {
+    @apply transform transition duration-500 hover:scale-110
+  }
 }
