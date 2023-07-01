@@ -29,7 +29,7 @@ function PortfolioCard({ imageSrc, imageAlt, title, summary, moreDetails, longDe
   return (
     <div className="w-full md:flex drop-shadow-lg py-3">
       <div className={`h-52 md:h-auto md:w-[30%] bg-center bg-cover rounded-t-xl rounded-b-none md:rounded-r-none md:rounded-l-xl overflow-hidden ${imageSrc}`} alt={imageAlt}></div>
-      <Card className="w-full px-4 md:px-7 !rounded-t-none !rounded-b-xl md:!rounded-r-xl md:!rounded-l-none dark:!bg-gray-200">
+      <Card className="w-full px-4 md:px-7 !rounded-t-none !rounded-b-xl md:!rounded-r-xl md:!rounded-l-none">
         <h2 className="font-poppins text-lg md:text-2xl font-semibold pt-4 pb-2">{title}</h2>
         <div className="flex flex-wrap gap-2">
           {software=="true" && (<SoftwareTag />)}
