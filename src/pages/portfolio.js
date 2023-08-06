@@ -22,7 +22,9 @@ export default function Portfolio() {
                         imageSrc="bg-[url(/images/portfolio/website-dev.webp)]" 
                         imageAlt="Person typing code on a laptop." 
                         software="true" design="false" industry="false" personal="true" school="false"
-                        moreDetails="false"
+                        moreDetails="true"
+                        codeLink="https://github.com/ryanthan/personal-portfolio"
+                        videoLink="" designLink="" otherLink=""
                     />
 
                     <PortfolioCard 
@@ -56,9 +58,10 @@ export default function Portfolio() {
                                 Note: This application is not intended for release on the Apple App Store. It was created for a university course and became a personal project afterwards.
                             </p>
                         </div>}
-                        codeLink="" otherLink=""
+                        codeLink="https://github.com/ryanthan/RyanThan_AdvancedMobileAppDev_Spring2021/tree/master/iOS/Agile%20Project/Ludos/Ludos/Ludos"
                         designLink="https://www.figma.com/file/IVsbRBWXxU5qIoGwhI8dgJ/Ludos-Prototype?node-id=0%3A1&t=AfaNIsU7MfMVVhEU-1"
                         videoLink="https://drive.google.com/file/d/1NQGoXCEShB9E6k3Jy4DxgPsOF3YaliVb/view?usp=sharing"
+                        otherLink=""
                     />
 
                     <PortfolioCard 
@@ -120,7 +123,8 @@ export default function Portfolio() {
                             <br/>
                             <p>I plan to continue exploring and developing with different game engines in the future.</p>
                         </div>}
-                        codeLink="" videoLink="" designLink="" otherLink=""
+                        codeLink="" videoLink="" designLink="" 
+                        otherLabel="The Sea of Trees Source Code" otherLink="https://github.com/ryanthan/The-Sea-of-Trees"
                     />
 
                     <PortfolioCard 
