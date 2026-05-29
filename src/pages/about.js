@@ -23,7 +23,7 @@ export default function About() {
                             <p className="text-md font-poppins dark:text-gray-400">Mary Lou Cook</p>
                         </blockquote>
                         <p className="text-lg font-raleway">
-                            My career interests lie primarily in creative yet technical areas of Computer Science. I am very passionate about front-end software development projects (websites, web/mobile applications, etc.) as they often allow me to take creative liberties while simultaneously applying my technical programming abilities.
+                            My career interests lie primarily in creative yet technical areas of Computer Science. I am very passionate about full stack software development projects (websites, web/mobile applications, etc.) as they often allow me to take creative liberties while simultaneously applying my technical programming abilities.
                             <br/><br/>
                             I am constantly exploring different software and design tools/frameworks to enhance the usability of the software I create and provide a seamless user experience. I have always believed that creativity drives innovation and I strive to blend the practicality of engineering with the limitless potential of the imagination in everything I work on!
                         </p>
